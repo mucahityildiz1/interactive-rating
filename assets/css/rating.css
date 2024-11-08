@@ -1,0 +1,129 @@
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Overpass";
+  background-color: #131518;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  position: relative;
+}
+.rating {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 24px;
+  background: radial-gradient(
+    98.96% 98.96% at 50% 0%,
+    #232a34 0%,
+    #181e27 100%
+  );
+  border-radius: 15px;
+}
+.rating h1 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30.38px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.rating p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: #969fad;
+  width: 290px;
+  margin-bottom: 24px;
+}
+.rating i {
+  color: #fc7614;
+  padding: 13px;
+  background-color: #262e38;
+  border-radius: 50%;
+  margin-bottom: 16px;
+}
+.select {
+  display: flex;
+  gap: 18px;
+}
+.rating-star button {
+  background-color: #262e38;
+  color: #969fad;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: none;
+  margin-bottom: 24px;
+  cursor: pointer;
+}
+.rating-star button:hover {
+  background-color: #fc7614;
+}
+.rating-star button:hover {
+  background-color: #FC7614;
+  color: #262E38;
+}
+
+.rating-star button:focus, .selected {
+  background-color: #FFFFFF;
+  color: #262E38;
+}
+
+.sumbit-btn button {
+  border-radius: 23px;
+  border: none;
+  padding: 14px 109px;
+  background-color: #fc7614;
+  color: #131518;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17.72px;
+  letter-spacing: 1.8666666746139526px;
+}
+.sumbit-btn button:hover {
+  background-color: #fff;
+}
