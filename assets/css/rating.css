@@ -104,13 +104,14 @@ h6 {
   background-color: #fc7614;
 }
 .rating-star button:hover {
-  background-color: #FC7614;
-  color: #262E38;
+  background-color: #fc7614;
+  color: #262e38;
 }
 
-.rating-star button:focus, .selected {
-  background-color: #FFFFFF;
-  color: #262E38;
+.rating-star button:focus,
+.selected {
+  background-color: #ffffff;
+  color: #262e38;
 }
 
 .sumbit-btn button {
@@ -126,4 +127,31 @@ h6 {
 }
 .sumbit-btn button:hover {
   background-color: #fff;
+}
+.headTxt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.headTxt p {
+  padding: 5px 24px;
+  border-radius: 22px;
+  background-color:#262E38 ;
+  color: #fc7614;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+}
+.thank-img img {
+  margin-bottom: 24px;
+}
+.thankContent h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30.38px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 10px;
 }
